@@ -31,6 +31,11 @@ class ProdukController extends Controller
         //
         return view('produk.pendukung');
     }
+    public function index4()
+    {
+        //
+        return view('produk.tambah');
+    }
 
 
     /**
